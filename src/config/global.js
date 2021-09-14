@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Caracterización en manejo de equipajes',
     descripcionCurso:
-      'Los fundamentos del diseño gráfico y digital, del lenguaje audiovisual, las tipologías multimedia, la estrategia digital, entre otros, son elementos fundamentales para la comunicación visual de las ideas en entornos digitales. Más allá de un producto final, lo importante es entender el proceso de creación y los detalles que conforman cada composición, los cuales pueden aplicarse a casi cualquier tipo de proyecto.',
+      'Una de las áreas más importantes en el proceso de viaje es la de equipajes, pues maneja información compleja desde el inicio del viaje, por lo que entender sus procesos, conceptos e información de seguridad ayudará a desarrollar mejor las funciones y garantizará que la operación aérea sea segura tanto para el personal en tierra como en aire. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -30,43 +30,43 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Características del área',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Clasificación del equipaje',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Rastreo del equipaje',
-            hash: 'botones',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Movilización del equipaje',
-            hash: 'listas',
+            hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Equipaje en custodia, saqueado, sobrante y rezagado',
-            hash: 'tablas',
+            hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Equipos y elementos de protección personal - EPP',
-            hash: 'imagen',
+            hash: 't_1_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Manejo de objetos olvidados',
-            hash: 'imagen_infografica',
+            hash: 't_1_7',
           },
         ],
       },
@@ -168,38 +168,32 @@ export default {
   referencias: [
     {
       referencia:
-        'Alvarado, E. (2020). <i>Herramienta de analítica visual para el manejo de irregularidades de equipajes</i>. ',
+        'Alvarado, E. (2020). Herramienta de analítica visual para el manejo de irregularidades de equipajes. ',
       link:
         'https://repositorio.uniandes.edu.co/bitstream/handle/1992/48634/u833224.pdf?sequence=1',
     },
     {
-      referencia: 'DIAN. (s.f.). <i>Importación del menaje doméstico</i>.',
+      referencia: 'DIAN. (s.f.). Importación del menaje doméstico. ',
       link:
         'https://www.cancilleria.gov.co/sites/default/files/AyudaMemoriaMenajeDomestico.pdf',
     },
     {
       referencia:
-        'Secretaría de Seguridad Aérea. (2010). <i>Procedimiento para evaluar el manual de mercancías peligrosas.</i>',
+        'Secretaría de Seguridad Aérea. (2010). Procedimiento para evaluar el manual de mercancías peligrosas. ',
       link:
         'https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/vigilancia/Documents/CAPITULO%2010.pdf',
-    },
-    {
-      referencia:
-        'Secretaría de Seguridad Aérea. (2010). <i>Inspección de aeropuertos</i>.',
-      link:
-        'https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/vigilancia/Documents/CAPITULO%203%20II.pdf',
     },
   ],
   glosario: [
     {
       termino: 'Bandeja portaequipaje',
       significado:
-        'recipiente plástico ubicado a un costado de los Check-in y en la descarga de las bandas de llegadas, para acomodar aquel equipaje OOG (sobredimensionado), que por sus características puede generar un bloqueo o atasco en el sistema de equipajes, siendo utilizadas con el fin de reducir y/o prevenir los inconvenientes anteriormente mencionados, o bien daños de cualquier componente del sistema para evitar posibles retrasos de procesamiento de este.',
+        'recipiente plástico ubicado a un costado de los <i>Check-in</i> y en la descarga de las bandas de llegadas, para acomodar aquel equipaje OOG (sobredimensionado), que por sus características puede generar un bloqueo o atasco en el sistema de equipajes, siendo utilizadas con el fin de reducir y/o prevenir los inconvenientes anteriormente mencionados, o bien daños de cualquier componente del sistema para evitar posibles retrasos de procesamiento de este.',
     },
     {
       termino: 'Equipaje sobredimensionado (OOG)',
       significado:
-        'equipaje que, por contar con correas, reatas, cordones; por su geometría redonda o cilíndrica, tamaño menor o mayor a los límites permitidos para ingresar de manera habitual al sistema BHS debe ser manejado según características específica en una bandeja portaequipaje o bien por el sistema de equipaje sobredimensionado con el que cuenta el aeropuerto',
+        'equipaje que, por contar con correas, reatas, cordones; por su geometría redonda o cilíndrica, tamaño menor o mayor a los límites permitidos para ingresar de manera habitual al sistema BHS debe ser manejado según características específicas en una bandeja portaequipaje o bien por el sistema de equipaje sobredimensionado con el que cuenta el aeropuerto.',
     },
     {
       termino: 'Equipaje fuera de dimensión',
@@ -207,7 +201,8 @@ export default {
         'equipaje que, por sus accesorios, peso o dimensiones se encuentra fuera de las medidas mínimas y máximas para su tratamiento a través del Sistema de Manejo de Equipajes.',
     },
     {
-      termino: '<i>Handling</i>',
+      termino: 'Handling',
+      terminoHtml: '<i> Handling</i>',
       significado:
         'prestación de los servicios de asistencia en tierra de la aeronave.',
     },
@@ -223,7 +218,7 @@ export default {
     },
     {
       termino: 'RAC',
-      significado: 'Reglamentos Aeronáuticos de Colombia.',
+      significado: ' Reglamentos Aeronáuticos de Colombia.',
     },
     {
       termino: 'Zona de <i>In Bound</i> carrusel (IB)',
@@ -283,23 +278,25 @@ export default {
       },
       {
         nombre: 'Claudia Ávila',
-        cargo: 'Experta Temática',
-        centro: 'Centro Nacional de Hotelería Turismo y Alimentos',
+        cargo: 'Experta temática',
+        centro:
+          'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Distrito Capital',
       },
       {
         nombre: 'Lida Guanumen',
         cargo: 'Experta temática de apoyo',
-        centro: 'Centro Nacional de Hotelería Turismo y Alimentos',
+        centro:
+          'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Distrito Capital',
       },
       {
         nombre: 'Gloria Amparo López Escudero',
-        cargo: 'Diseñadora y Evaluadora Instruccional',
-        centro: ' Centro de Gestión Industrial - Regional Distrito Capital.',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: ' Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Evaluadora instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital.',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
@@ -339,13 +336,78 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Adriana Marcela Suárez Eljure',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Villamizar Lizcano',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Nelson Iván Vera Briceño',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ricardo Vásquez Arroyave',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

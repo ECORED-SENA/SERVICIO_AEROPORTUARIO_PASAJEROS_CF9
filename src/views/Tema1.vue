@@ -16,6 +16,9 @@
         | Generalidades de equipaje
     figure.mb-5
       img(src="@/assets/curso/img1.svg")(data-aos="zoom-in-up")
+    br
+    br
+    br
     #t_1_1.titulo-segundo
       h2 1.1 Características del área
     p.mb-5 Para hablar de las características del área de equipajes, es necesario conocer que estos procesos se realizan divididos en varias partes que se explican en el video que se expone a continuación:
@@ -56,7 +59,7 @@
           .tarjeta.color-acento-botones
             .p-4.text-center
               h3 Equipaje personal
-              p Es la cantidad de elementos personales para el uso diario necesario para vestir, elementos de uso personal, de confort, comodidad o conveniencia del pasajero, durante el tiempo que dure su viaje y es conocido en la industria aérea como equipaje libre permitido o (Free Allowance), o puede llevarlo como equipaje de mano, esto de acuerdo con las políticas internas de la compañía.
+              p Es la cantidad de elementos personales para el uso diario necesario para vestir, elementos de uso personal, de confort, comodidad o conveniencia del pasajero, durante el tiempo que dure su viaje y es conocido en la industria aérea como equipaje libre permitido o (<i>Free Allowance</i>), o puede llevarlo como equipaje de mano, esto de acuerdo con las políticas internas de la compañía.
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="slide-left")
         .tarjeta-avatar.hover
           img(src='@/assets/curso/img3.png' alt='AvatarTop')
@@ -64,7 +67,7 @@
             .p-4.text-center
               h3 Menajes
               p Son todos los artículos de uso doméstico, tales como enseres, electrodomésticos, utensilios de cocina y todos los elementos utilizados en el hogar. Esta situación se presenta cuando las personas se trasladan a otra ciudad a establecen su residencia temporal o permanente por diferentes motivos.
-    p.mb-5 Se recomienda revisar muy atentamente las normas vigentes de menaje, estipuladas en el Decreto 2685 de 1999 a través el cual se regula la introducción de mercancías al territorio nacional; al referirse a la importación de menajes establece lo siguiente, entre otros aspectos, lo siguiente:
+    p.mb-5 Se recomienda revisar muy atentamente las normas vigentes de menaje, estipuladas en el Decreto 2685 de 1999 a través del cual se regula la introducción de mercancías al territorio nacional; al referirse a la importación de menajes establece lo siguiente, entre otros aspectos.
     .row.mb-3(data-aos="fade-up")
       .col-lg-6.mb-3
         .tarjetas-letra.d-flex.h-100
@@ -105,6 +108,8 @@
         .anexo__texto
           p 
             b Para conocer más acerca de la normatividad para importación de menaje doméstico, consultar los artículos 218, 219, 220, 221 y 222 en el siguiente documento.
+    br
+    br
     #t_1_3.titulo-segundo
       h2 1.3 Rastreo del equipaje
     .row.mb-5
@@ -112,7 +117,7 @@
         p La movilidad de personas en el mundo cada día crece más por diferentes motivaciones y el transporte aéreo es uno de los servicios más utilizados en el mundo en la actualidad para trasladarse de un lugar a otro, esto hace que las empresas aéreas incrementen sus rutas y frecuencias diarias para la satisfacción de las necesidades de sus clientes.
           br
           br
-          |La gran cantidad de líneas aéreas y el volumen de vuelos que cada una tiene en la operación diaria y teniendo en cuenta las conexiones que realizan los pasajeros y que transportan por lo menos una pieza de equipaje, hace que se presenten confusiones de equipaje o no se alcance a embarcar en los aviones correspondientes; igualmente el manejo de conexiones generan diversas situaciones con dicho equipaje, por lo que se hace necesario identificar o catalogar los procesos de búsqueda que tienen las aerolíneas; a continuación , se encontrarán los procesos que se manejan, esto es: 
+          |La gran cantidad de líneas aéreas y el volumen de vuelos que cada una tiene en la operación diaria y teniendo en cuenta las conexiones que realizan los pasajeros y que transportan por lo menos una pieza de equipaje, hace que se presenten confusiones de equipaje o no se alcance a embarcar en los aviones correspondientes; igualmente el manejo de conexiones generan diversas situaciones con dicho equipaje, por lo que se hace necesario identificar o catalogar los procesos de búsqueda que tienen las aerolíneas; a continuación , se encontrarán los procesos que se manejan, estos son: 
       .col-lg-6: img(src="@/assets/curso/img4.jpg")(data-aos="fade-right")
     .tarjeta-avatar-b.mb-5
         .tarjeta-avatar-b__img
@@ -120,20 +125,19 @@
         .tarjeta.color-primario.align-items-center.d-flex
           .p-4
             h3 Rastreo: 
-            p es el proceso de búsqueda de los equipajes perdidos que por diferentes motivos se quedan en la ciudad de origen o se sobrevuelan a otros destinos.
+            p Es el proceso de búsqueda de los equipajes perdidos que por diferentes motivos se quedan en la ciudad de origen o se sobrevuelan a otros destinos.
     .tarjeta-avatar-b.mb-5
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/img6.svg' alt='AvatarTop' style='width: 145px')
         .tarjeta.color-primario.align-items-center.d-flex
           .p-4
             h3 ID CHART: 
-            p es una tabla de identificación de equipajes diseñada por la 
+            p Es una tabla de identificación de equipajes diseñada por la 
               b IATA 
-              |para facilitar la identificación del equipaje donde se encuentra, los tipos de equipaje, color y descripciones características de los mismos. Esta tabla se puede encontrar en los mostradores de las oficinas de equipajes, es una tabla diseñada para que el pasajero identifique su equipaje con las características que se asemejen a su equipaje perdido, viene diseñada en inglés, con imágenes y código de barras para usarse con las etiquetas de equipaje que contengan código de barras.
+              | para facilitar la identificación del equipaje, donde se encuentra, los tipos de equipaje, color y descripciones características de los mismos. Esta tabla se puede encontrar en los mostradores de las oficinas de equipajes, es una tabla diseñada para que el pasajero identifique su equipaje con las características que se asemejen a su equipaje perdido, viene diseñada en inglés, con imágenes y código de barras para usarse con las etiquetas de equipaje que contengan código de barras.
     p.mb-5 Ahora, se podrá observar la tabla de identificación de equipaje catalogada por la IATA.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal
-        b Tabla 1 
         | TABLA DE IDENTIFICACIÓN DE EQUIPAJE - ID CHART
     .row.mb-5.justify-content-center
       .col-lg-8
@@ -145,12 +149,16 @@
           img(src="@/assets/curso/img8.svg")
 
         .col-md.col-lg-6
-          h3 Códigos de búsqueda
+          .titulo-segundo
+            h3 Códigos de búsqueda
           p.mb-4 Para conocer cómo se selecciona la información para crear un código de búsqueda según la descripción realizada por el pasajero y tomando como referencia el ID Chart, descargue el siguiente documento.
           
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/ANEXO_Codigos_de_busqueda.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
+    br
+    br
+    br
     #t_1_4.titulo-segundo
       h2 1.4 Movilización del equipaje
     p.mb-5 Es responsabilidad del funcionario de la compañía aérea cumplir con todas las funciones del área de equipajes para brindar una pronta y eficaz solución con las novedades presentadas con los equipajes de los pasajeros, además de cumplir con las siguientes actividades diarias de la operación aérea, para evitar en lo posible las fugas de dinero de la compañía por falta de cumplimiento en los protocolos establecidos en esta área.
@@ -189,115 +197,124 @@
       br
       br
       |Algunos de los sistemas utilizados por las aerolíneas son los siguientes:
-    SlyderE(indicadores="centro")
-      div.p-3
-        .row.mb-3
-          .col-lg-7
-            h4 Equipaje en custodia:
-            p.mb-5 Es el equipaje que el pasajero factura en la línea aérea y a partir del momento que la empresa lo recibe el mismo queda bajo la custodia y responsabilidad por todo lo que llegare a pasarle.
-              br
-              |Hay unas restricciones de artículos o elementos que el pasajero no debe transportar en el equipaje facturado, ya que la aerolínea no se hace responsable de estos artículos como son: 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | Artículos frágiles o perecederos.
-              li 
-                i.fas.fa-check
-                | Joyas, piedras o metales preciosos, platería.
+    .tarteja.tarjeta--clara.p-4.p-md-5.mb-5
+      SlyderE(indicadores="centro")
+        div.p-3
+          .row.mb-3
+            .col-lg-7
+              h4 Equipaje en custodia:
+              p.mb-5 Es el equipaje que el pasajero factura en la línea aérea y a partir del momento que la empresa lo recibe, el mismo queda bajo la custodia y responsabilidad por todo lo que llegare a pasarle.
+                br
+                |Hay unas restricciones de artículos o elementos que el pasajero no debe transportar en el equipaje facturado, ya que la aerolínea no se hace responsable de estos artículos como son: 
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-check
+                  | Artículos frágiles o perecederos.
+                li 
+                  i.fas.fa-check
+                  | Joyas, piedras o metales preciosos, platería.
 
-              li 
-                i.fas.fa-check
-                | Documentos negociables, títulos u otros valores.
-              li 
-                i.fas.fa-check
-                | Dinero en efectivo.
+                li 
+                  i.fas.fa-check
+                  | Documentos negociables, títulos u otros valores.
+                li 
+                  i.fas.fa-check
+                  | Dinero en efectivo.
 
-              li 
-                i.fas.fa-check
-                | Pasaportes.
+                li 
+                  i.fas.fa-check
+                  | Pasaportes.
 
-              li 
-                i.fas.fa-check
-                | Cámaras fotográficas o de video, filmadoras, computadoras, tabletas electrónicas, teléfonos móviles, calculadoras.
-              li 
-                i.fas.fa-check
-                | Lentes.
-              li 
-                i.fas.fa-check
-                | Botellas con licor o perfumes.
-            
-          .col-lg-5: img(src="@/assets/curso/img10.jpg")
-        p Estos elementos los tendrá el pasajero bajo su propia custodia y responsabilidad pueden ser transportados a la mano, o en el equipaje de mano, si sus características lo permiten.
-      div.p-3
-        .row.mb-3
-          .col-lg-7
-            h4 Equipaje saqueado – DPR: 
-            p son los equipajes abiertos por personas inescrupulosas que sacan elementos de valor de los equipajes durante el trayecto o en las conexiones realizadas por el pasajero, esta irregularidad puede suceder por personal ajeno o por los mismos funcionarios del área.
-              br
-              br
-              |Si el pasajero tiene objetos de valor en su equipaje es recomendable llevarlos en cabina sin descuidarlos, o bien hacer una declaración especial de equipaje para objetos de valor. De esta forma, la compañía se responsabiliza de los objetos de valor que haya facturado y servirá de prueba para realizar la reclamación. De igual manera, el pasajero puede comprar un seguro de viaje que cubre robos.
-          .col-lg-5: img(src="@/assets/curso/img11.jpg")
-      div.p-3
-        .row.mb-3
-          .col-lg-7
-            h4 Re-ruteo: 
-            p es cuando por diferentes motivos a un pasajero se le cambia de su vuelo inicial a otro, ya sea con la misma aerolínea o con otra aerolínea distinta a la elegida inicialmente y el equipaje se queda en alguna de las áreas del aeropuerto.
+                li 
+                  i.fas.fa-check
+                  | Cámaras fotográficas o de video, filmadoras, computadoras, tabletas electrónicas, teléfonos móviles, calculadoras.
+                li 
+                  i.fas.fa-check
+                  | Lentes.
+                li 
+                  i.fas.fa-check
+                  | Botellas con licor o perfumes.
+              
+            .col-lg-5: img(src="@/assets/curso/img10.jpg")
+          p Estos elementos los tendrá el pasajero bajo su propia custodia y responsabilidad; pueden ser transportados a la mano, o en el equipaje de mano, si sus características lo permiten.
+        div.p-3
+          .row.mb-3
+            .col-lg-7
+              h4 Equipaje saqueado – DPR: 
+              p Son los equipajes abiertos por personas inescrupulosas que sacan elementos de valor de los equipajes durante el trayecto o en las conexiones realizadas por el pasajero, esta irregularidad puede suceder por personal ajeno o por los mismos funcionarios del área.
+                br
+                br
+                |Si el pasajero tiene objetos de valor en su equipaje es recomendable llevarlos en cabina sin descuidarlos, o bien hacer una declaración especial de equipaje para objetos de valor. De esta forma, la compañía se responsabiliza de los objetos de valor que haya facturado y servirá de prueba para realizar la reclamación. De igual manera, el pasajero puede comprar un seguro de viaje que cubre robos.
+            .col-lg-5: img(src="@/assets/curso/img11.jpg")
+        div.p-3
+          .row.mb-3
+            .col-lg-7
+              h4 Re-ruteo: 
+              p es cuando por diferentes motivos a un pasajero se le cambia de su vuelo inicial a otro, ya sea con la misma aerolínea o con otra aerolínea distinta a la elegida inicialmente y el equipaje se queda en alguna de las áreas del aeropuerto.
 
-          .col-lg-5: img(src="@/assets/curso/img12.jpg")
-      div.p-3
-        .row.mb-3
-          .col-lg-7
-            h4 Equipaje sobrante – OHD/QOH: 
-            p por lo general sucede en las bandas de entrega de equipaje que, teniendo unos tiempos establecidos, no hacen el retiro del equipaje; dentro de ellos está:
-            ol.lista-ol--cuadro
-              li 
-                .lista-ol--cuadro__vineta
-                  span.fw-bold A
-                p.mb-0 
-                  b Equipaje con etiqueta: 
-                  |pasajero que no retiró su equipaje, pasajero en conexión, equipaje mal etiquetado, equipaje sobrevolado, pasajero que se lleva por error otro equipaje.
-              li 
-                .lista-ol--cuadro__vineta
-                  span.fw-bold B
-                p.mb-0 
-                  b Equipaje sin etiqueta: 
-                  | se encuentra en bandas, compartimientos o bodegas del avión, también puede suceder que al equipaje se le cae la etiqueta y no se identifica el destino ni tienen información del propietario.
-          .col-lg-5: img(src="@/assets/curso/img13.jpg")
-      div.p-3
-        .row.mb-3
-          .col-lg-7
-            h4 Equipaje dañado – DPR: 
-            p desde el mostrador el funcionario debe cerciorarse que la maleta no tenga ninguna avería y si por el contrario presenta algún daño se debe informar al pasajero para tener soporte de información y limitar la responsabilidad del transportista. (Limited Release) Esta etiqueta de equipaje se debe hacer firmar por el pasajero señalando el daño.
-          .col-lg-5: img(src="@/assets/curso/img14.jpg")
-      div.p-3
-        .row.mb-3
-          .col-lg-7
-            h4 Equipaje rezagado: 
-            p que NO fue abordado en el aeropuerto origen o conexión en el mismo vuelo y fecha de viaje del pasajero. 
-          .col-lg-5: img(src="@/assets/curso/img15.jpg")
-      div.p-3
-        .row.mb-3
-          .col-lg-7
-            h4 Faltante de equipaje – AHL: 
-            p ocurre cuando a cualquier viajero que llegue a su destino y que no le sea entregado alguno o la totalidad de sus equipajes, por lo que se debe tener en cuenta lo siguiente:
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | El pasajero debe presentar etiqueta física o tener soporte de registro de equipaje en el sistema.
-              li 
-                i.fas.fa-check
-                | Toma el reporte la última aerolínea que transporta al pasajero.
-              li 
-                i.fas.fa-check
-                | Las indemnizaciones las realizará la última aerolínea transportadora.
-          .col-lg-5: img(src="@/assets/curso/img16.jpg")
+            .col-lg-5: img(src="@/assets/curso/img12.jpg")
+        div.p-3
+          .row.mb-3
+            .col-lg-7
+              h4 Equipaje sobrante – OHD/QOH: 
+              p por lo general sucede en las bandas de entrega de equipaje que, teniendo unos tiempos establecidos, no hacen el retiro del equipaje; dentro de ellos está:
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span.fw-bold A
+                  p.mb-0 
+                    b Equipaje con etiqueta: 
+                    |pasajero que no retiró su equipaje, pasajero en conexión, equipaje mal etiquetado, equipaje sobrevolado, pasajero que se lleva por error otro equipaje.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span.fw-bold B
+                  p.mb-0 
+                    b Equipaje sin etiqueta: 
+                    | se encuentra en bandas, compartimientos o bodegas del avión, también puede suceder que al equipaje se le cae la etiqueta y no se identifica el destino ni tienen información del propietario.
+            .col-lg-5: img(src="@/assets/curso/img13.jpg")
+        div.p-3
+          .row.mb-3
+            .col-lg-7
+              h4 Equipaje dañado – DPR: 
+              p.mb-5 Desde el mostrador el funcionario debe cerciorarse que la maleta no tenga ninguna avería y si por el contrario presenta algún daño se debe informar al pasajero para tener soporte de información y limitar la responsabilidad del transportista. <b>(Limited Release)</b> Esta etiqueta de equipaje se debe hacer firmar por el pasajero señalando el daño.
+              a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/ticket.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p 
+                    b Etiquetas de liberación, utilizadas por la aerolínea para reportar equipajes con daños ya existentes antes del viaje.
+            .col-lg-5: img(src="@/assets/curso/img14.jpg")
+        div.p-3
+          .row.mb-3
+            .col-lg-7
+              h4 Equipaje rezagado: 
+              p que NO fue abordado en el aeropuerto origen o conexión en el mismo vuelo y fecha de viaje del pasajero. 
+            .col-lg-5: img(src="@/assets/curso/img15.jpg")
+        div.p-3
+          .row.mb-3
+            .col-lg-7
+              h4 Faltante de equipaje – AHL: 
+              p Ocurre cuando a cualquier viajero que llegue a su destino no le sea entregado alguno o la totalidad de sus equipajes, por lo que se debe tener en cuenta lo siguiente:
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-check
+                  | El pasajero debe presentar etiqueta física o tener soporte de registro de equipaje en el sistema.
+                li 
+                  i.fas.fa-check
+                  | Toma el reporte la última aerolínea que transporta al pasajero.
+                li 
+                  i.fas.fa-check
+                  | Las indemnizaciones las realizará la última aerolínea transportadora.
+            .col-lg-5: img(src="@/assets/curso/img16.jpg")
+    br
+    br
+    br
     #t_1_6.titulo-segundo
       h2 1.6 Equipos y elementos de protección personal – EPP
     p.mb-5 Se debe cumplir con la utilización de todos los elementos de protección personal (EPP) para la seguridad adecuada según el área asignada en la que desempeña su labor, y que la empresa debe suministrar para desplazarse por las áreas del aeropuerto, tales como chaleco reflectivo, protectores auditivos, calzado apropiado, entre otros.
       br
       br
       |Es importante tener en cuenta las características de los elementos de seguridad que podrá revisar a continuación:
-    h3 Acordion A tipo A
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-acento-botones-claro")
       .row(titulo="Casco")
         .col-md-5
@@ -322,13 +339,13 @@
           figure
             img(src='@/assets/curso/img20.jpg', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0
-          p cuentan con puntera reforzada en acero que ofrecen protección a la parte anterior del pie del trabajador en caso de golpes o caídas de objetos sobre dicha zona. Esta clase de calzado es indispensable para quienes, dentro de sus labores, tengan que manipular o movilizar materiales. 
+          p Cuentan con puntera reforzada en acero que ofrecen protección a la parte anterior del pie del trabajador en caso de golpes o caídas de objetos sobre dicha zona. Esta clase de calzado es indispensable para quienes, dentro de sus labores, tengan que manipular o movilizar materiales. 
       .row(titulo="Protección de manos y brazos")
         .col-md-5
           figure
             img(src='@/assets/curso/img21.jpg', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0
-          p para todos los elementos de protección personal (EPP) del presente documento, correspondientes a las manos y brazos, en ocasiones debe llevar en un portadocumento transparente información de la persona.
+          p Para todos los elementos de protección personal (EPP) del presente documento, correspondientes a las manos y brazos, en ocasiones debe llevar en un portadocumento transparente información de la persona.
       .row(titulo="Chaleco reflectivo")
         .col-md-5
           figure
@@ -355,9 +372,12 @@
               li 
                 i.fas.fa-check
                 | En la parte posterior debe tener el nombre y/o logo que identifica la empresa de quien lo porta
+    br
+    br
+    br
     #t_1_7.titulo-segundo
       h2 1.7 Manejo de objetos olvidados 
-    p.mb-5 Son los artículos que los pasajeros han olvidado ya sean en los aviones, salas de embarque, módulos etc. y es un equipaje de mano (morrales, maletines deportivos, entre otros), estos artículos deben tener un proceso de manejo que se presenta a renglón seguido:
+    p.mb-5 Son los artículos que los pasajeros han olvidado ya sean en los aviones, salas de embarque, módulos, etc. y es un equipaje de mano (morrales, maletines deportivos, entre otros), estos artículos deben tener un proceso de manejo que se presenta a renglón seguido:
     .row.mb-5.justify-content-center
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
@@ -368,7 +388,7 @@
             .col-md-7.mb-4.mb-md-0
               h3 ¿Quién se puede encontrar el objeto?
               p.mb-3 
-                b Tripulante de cabina:
+                b Tripulante de cabina: 
                 | de acuerdo con el manual de tripulantes, ellos deben realizar el barrido visual del avión desde atrás hacia adelante en búsqueda de elementos olvidados en cabina por los pasajeros.
               p.mb-3 
                 b Cualquier persona que deba subir al avión: 
@@ -420,11 +440,11 @@
               p Si los artículos no son reclamados, deberán ser enviados a la central de equipajes, los días 16 de cada mes.
                 br
                 br
-                |Se colocará la etiqueta Rush envío a HDQ, y se enviará el mensaje de envío, correspondiente (FLZ) vía World Tracer.
+                |Se colocará la etiqueta <i>Rush</i> envío a HDQ y se enviará el mensaje de envío correspondiente (FLZ) vía <i>World Tracer</i>.
                 br
                 br
                 |Las cajas enviadas con los Fitems hacia la bodega de centralizado deberán estar rotuladas con los siguientes datos:
-              .tarjeta.bg-secundario-claro2.px-5.py-2.mb-3
+              .tarjeta.bg-secundario-claro2.px-4.py-2.mb-3
                 p.fw-bold.text-end.mb-0
                   | BODEGA DE CENTRALIZADO DE EQUIPAJES - BOG
                   br
@@ -508,4 +528,7 @@ export default {
 
 .tarjeta-avatar-b__img
   min-width: 0
+.tarjeta--clara
+  background-color: #F3F9FF
+  border-radius: 10px
 </style>
