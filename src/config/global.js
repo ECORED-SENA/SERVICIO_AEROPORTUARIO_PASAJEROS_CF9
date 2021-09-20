@@ -179,6 +179,12 @@ export default {
     },
     {
       referencia:
+        'Secretaría de Seguridad Aérea. (2010). Inspección de aeropuertos.',
+      link:
+        'https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/vigilancia/Documents/CAPITULO%203%20II.pdf',
+    },
+    {
+      referencia:
         'Secretaría de Seguridad Aérea. (2010). Procedimiento para evaluar el manual de mercancías peligrosas. ',
       link:
         'https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/vigilancia/Documents/CAPITULO%2010.pdf',

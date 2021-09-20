@@ -117,7 +117,7 @@
         p La movilidad de personas en el mundo cada día crece más por diferentes motivaciones y el transporte aéreo es uno de los servicios más utilizados en el mundo en la actualidad para trasladarse de un lugar a otro, esto hace que las empresas aéreas incrementen sus rutas y frecuencias diarias para la satisfacción de las necesidades de sus clientes.
           br
           br
-          |La gran cantidad de líneas aéreas y el volumen de vuelos que cada una tiene en la operación diaria y teniendo en cuenta las conexiones que realizan los pasajeros y que transportan por lo menos una pieza de equipaje, hace que se presenten confusiones de equipaje o no se alcance a embarcar en los aviones correspondientes; igualmente el manejo de conexiones generan diversas situaciones con dicho equipaje, por lo que se hace necesario identificar o catalogar los procesos de búsqueda que tienen las aerolíneas; a continuación , se encontrarán los procesos que se manejan, estos son: 
+          |La gran cantidad de líneas aéreas y el volumen de vuelos que cada una tiene en la operación diaria y teniendo en cuenta las conexiones que realizan los pasajeros y que transportan por lo menos una pieza de equipaje, hace que se presenten confusiones de equipaje o no se alcance a embarcar en los aviones correspondientes; igualmente el manejo de conexiones generan diversas situaciones con dicho equipaje, por lo que se hace necesario identificar o catalogar los procesos de búsqueda que tienen las aerolíneas; a continuación, se encontrarán los procesos que se manejan, estos son: 
       .col-lg-6: img(src="@/assets/curso/img4.jpg")(data-aos="fade-right")
     .tarjeta-avatar-b.mb-5
         .tarjeta-avatar-b__img
@@ -131,10 +131,10 @@
           img(src='@/assets/curso/img6.svg' alt='AvatarTop' style='width: 145px')
         .tarjeta.color-primario.align-items-center.d-flex
           .p-4
-            h3 ID CHART: 
+            h3.fst-italic ID CHART: 
             p Es una tabla de identificación de equipajes diseñada por la 
               b IATA 
-              | para facilitar la identificación del equipaje, donde se encuentra, los tipos de equipaje, color y descripciones características de los mismos. Esta tabla se puede encontrar en los mostradores de las oficinas de equipajes, es una tabla diseñada para que el pasajero identifique su equipaje con las características que se asemejen a su equipaje perdido, viene diseñada en inglés, con imágenes y código de barras para usarse con las etiquetas de equipaje que contengan código de barras.
+              | para facilitar la identificación del equipaje, dónde se encuentra, los tipos de equipaje, color y descripciones características de los mismos. Esta tabla se puede encontrar en los mostradores de las oficinas de equipajes, es una tabla diseñada para que el pasajero identifique su equipaje con las características que se asemejen a su equipaje perdido, viene diseñada en inglés, con imágenes y código de barras para usarse con las etiquetas de equipaje que contengan código de barras.
     p.mb-5 Ahora, se podrá observar la tabla de identificación de equipaje catalogada por la IATA.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal
@@ -250,14 +250,14 @@
           .row.mb-3
             .col-lg-7
               h4 Re-ruteo: 
-              p es cuando por diferentes motivos a un pasajero se le cambia de su vuelo inicial a otro, ya sea con la misma aerolínea o con otra aerolínea distinta a la elegida inicialmente y el equipaje se queda en alguna de las áreas del aeropuerto.
+              p Es cuando por diferentes motivos a un pasajero se le cambia de su vuelo inicial a otro, ya sea con la misma aerolínea o con otra aerolínea distinta a la elegida inicialmente y el equipaje se queda en alguna de las áreas del aeropuerto.
 
             .col-lg-5: img(src="@/assets/curso/img12.jpg")
         div.p-3
           .row.mb-3
             .col-lg-7
               h4 Equipaje sobrante – OHD/QOH: 
-              p por lo general sucede en las bandas de entrega de equipaje que, teniendo unos tiempos establecidos, no hacen el retiro del equipaje; dentro de ellos está:
+              p Por lo general sucede en las bandas de entrega de equipaje que, teniendo unos tiempos establecidos, no hacen el retiro del equipaje; dentro de ellos está:
               ol.lista-ol--cuadro
                 li 
                   .lista-ol--cuadro__vineta
@@ -276,7 +276,7 @@
           .row.mb-3
             .col-lg-7
               h4 Equipaje dañado – DPR: 
-              p.mb-5 Desde el mostrador el funcionario debe cerciorarse que la maleta no tenga ninguna avería y si por el contrario presenta algún daño se debe informar al pasajero para tener soporte de información y limitar la responsabilidad del transportista. <b>(Limited Release)</b> Esta etiqueta de equipaje se debe hacer firmar por el pasajero señalando el daño.
+              p.mb-5 Desde el mostrador el funcionario debe cerciorarse que la maleta no tenga ninguna avería y si por el contrario presenta algún daño se debe informar al pasajero para tener soporte de información y limitar la responsabilidad del transportista. <b>Limited Release</b> Esta etiqueta de equipaje se debe hacer firmar por el pasajero señalando el daño.
               a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/ticket.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
@@ -288,7 +288,7 @@
           .row.mb-3
             .col-lg-7
               h4 Equipaje rezagado: 
-              p que NO fue abordado en el aeropuerto origen o conexión en el mismo vuelo y fecha de viaje del pasajero. 
+              p Que NO fue abordado en el aeropuerto origen o conexión en el mismo vuelo y fecha de viaje del pasajero. 
             .col-lg-5: img(src="@/assets/curso/img15.jpg")
         div.p-3
           .row.mb-3
@@ -377,7 +377,7 @@
     br
     #t_1_7.titulo-segundo
       h2 1.7 Manejo de objetos olvidados 
-    p.mb-5 Son los artículos que los pasajeros han olvidado ya sean en los aviones, salas de embarque, módulos, etc. y es un equipaje de mano (morrales, maletines deportivos, entre otros), estos artículos deben tener un proceso de manejo que se presenta a renglón seguido:
+    p.mb-5 Son los artículos que los pasajeros han olvidado ya sean en los aviones, salas de embarque, módulos, etc., y es un equipaje de mano (morrales, maletines deportivos, entre otros), estos artículos deben tener un proceso de manejo que se presenta a renglón seguido:
     .row.mb-5.justify-content-center
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
@@ -443,7 +443,7 @@
                 |Se colocará la etiqueta <i>Rush</i> envío a HDQ y se enviará el mensaje de envío correspondiente (FLZ) vía <i>World Tracer</i>.
                 br
                 br
-                |Las cajas enviadas con los Fitems hacia la bodega de centralizado deberán estar rotuladas con los siguientes datos:
+                |Las cajas enviadas con los <b>Fitems </b> hacia la bodega de centralizado deberán estar rotuladas con los siguientes datos:
               .tarjeta.bg-secundario-claro2.px-4.py-2.mb-3
                 p.fw-bold.text-end.mb-0
                   | BODEGA DE CENTRALIZADO DE EQUIPAJES - BOG
@@ -452,7 +452,7 @@
                   | TEL: 5877700 EXT. 1996 // AVANTEL 4342
                   br
                   | AEROPUERTO EL DORADO
-              p Finalmente, si entre los Fitems no reclamados aún se encuentran artículos perecederos y/o alimentos, deberán desecharse.
+              p Finalmente, si entre los <b>Fitems </b> no reclamados aún se encuentran artículos perecederos y/o alimentos, deberán desecharse.
 
 
             .col-md-5.mb-4.mb-md-0

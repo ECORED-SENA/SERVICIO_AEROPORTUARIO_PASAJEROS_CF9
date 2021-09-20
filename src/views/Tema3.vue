@@ -22,7 +22,7 @@
         figure
           img(src='@/assets/curso/img54.svg', alt='Texto que describa la imagen')
           figcaption Mercancías peligrosas
-      .tarjeta.p-3(x="24.1%" y="37.7%" letra="A")
+      .tarjeta.p-3(x="24.1%" y="37.7%" letra="a")
         p 
           b Aparatos dentales: 
           |incluye productos químicos como resinas o disolventes. 
@@ -95,14 +95,14 @@
             .col-3.col-sm-2.col-lg-2.justify-content-end.d-flex
               img(src="@/assets/curso/img55.svg" style="width: 102px")
             .col
-              .row.justify-content-between.align-items-center
+              .row.justify-content-around.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Mercancías peligrosas 
-                  p.text-small Para revisar la variedad de mercancías peligrosas ocultas y la normativa general se puede remitir al siguiente enlace de la autoridad competente en el país: https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/vigilancia/Documents/CAPITULO%2010.pdf  
-                .col-sm-auto.me-5
+                  p.text-small Para revisar la variedad de mercancías peligrosas ocultas y la normativa general se puede remitir al siguiente documento de la autoridad competente en el país.
+                .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/enlace_aerocivil.pdf')" target="_blank")
-                    span Enlace
-                    i.fas.fa-link
+                    span Documento
+                    i.fas.fa-file-download
     #t_3_1.titulo-segundo
       h2 3.1 Conceptos, clasificación
     p.mb-5 Al hablar de equipaje es importante tener en cuenta algunas características para poder darle el manejo correcto y que el pasajero no tenga contratiempos en su viaje, por esta razón entender la información que lleva una etiqueta y los tipos de equipaje existentes en el proceso de viaje es de gran utilidad para realizar correctamente las funciones del área; las características y clasificación más relevantes son:
@@ -240,7 +240,7 @@
             img(src='@/assets/curso/img69.png' alt='AvatarTop' style='width: 167px').m-auto
             .p-4.text-center
               h4 Sistema de cintas transportadoras para clasificación automática
-              p Para este las maletas se identifican con etiqueta de lectura rápida (código de barras o de lectura óptica, emisor de frecuencias). Un ordenador va siguiendo la posición de cada maleta en la cinta transportadora y este decide cuando, sale de la cinta principal a otras cintas laterales de selección que emplean empujadores neumáticos, bandejas volcadoras u otros mecanismos que agilizan el traslado y ubicación de acuerdo al destino.
+              p Para este las maletas se identifican con etiqueta de lectura rápida (código de barras o de lectura óptica, emisor de frecuencias). Un ordenador va siguiendo la posición de cada maleta en la cinta transportadora y este decide cuándo sale de la cinta principal a otras cintas laterales de selección que emplean empujadores neumáticos, bandejas volcadoras u otros mecanismos que agilizan el traslado y ubicación de acuerdo al destino.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -258,7 +258,7 @@
           br
           br
           |Normalmente la reclamación se realiza en el documento dispuesto para tal fin, este se llama <b>PIR</b> <i>(Property Irregularity Report)</i> y en este debe ir la información de la descripción del equipaje en la tabla de identificación  
-          b ID-CHART.
+          b.fst-italic ID-CHART.
       .col-lg-6: img(src="@/assets/curso/img71.jpg")(data-aos="zoom-in-right")
     h3 Seguimiento del equipaje
     p.mb-5 Los archivos creados por irregularidad de equipajes deben ser documentados con toda la gestión realizada y contener mensajes de búsqueda, dejándolos adjuntos a cada archivo creado por medio del sistema 
@@ -348,7 +348,7 @@
 
         .col-md.col-lg-6
           .titulo-segundo
-            h3 RL - Reason for Loss Codes
+            h3 RL - <i>Reason for Loss Codes</i>
           p.mb-4 Para saber en qué área o base se presentó la irregularidad del equipaje, las aerolíneas diseñan un documento de acuerdo con las necesidades operacionales, se puede conocer descargando el siguiente archivo:
           
           a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/ANEXO_Codigos_razon_de_Perdida.pdf')" target="_blank" type="application/pdf")
@@ -423,7 +423,7 @@
           |, creada para publicar los requisitos para el transporte por vía aérea de mercancías peligrosas de forma segura. Es el organismo que reúne a las líneas aéreas internacionales, publica anualmente la Reglamentación sobre mercancías peligrosas, en donde se encuentran los requisitos de las instrucciones técnicas de OACI, también incluye requisitos más restrictivos.
     p.mb-5 Los convenios que se tienen en cuenta para lo relacionado con manejo de equipajes son:
     .row.mb-5.justify-content-center
-      .col-lg-5
+      .col-lg-5.mb-5.mb-lg-0
         .tarjeta.color-acento-contenido--borde.overflow-h.h-100.hover
           img(src="@/assets/curso/img87.jpg" style="width: 100% ")
           .textos.p-5

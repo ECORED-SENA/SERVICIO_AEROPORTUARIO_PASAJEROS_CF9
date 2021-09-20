@@ -207,7 +207,7 @@
     br
     #t_2_4.titulo-segundo
       h2 2.4 Manejo de PQRS
-    p.mb-5 Una de las causales por las que los pasajeros colocan más PQRS son las relacionadas con equipajes, ya sea porque el equipaje no llega, llega en otro vuelo, llega a otro destino, porque el equipaje está roto, saqueado, etc., por esto es importante saber que ante cualquier eventualidad asociada al equipaje que estaba bajo custodia de la aerolínea debe cumplir con un procedimiento para que se haga una revisión del caso y de tener lugar que la compañía aérea asuma los costos a que haya lugar. Existen características especiales que deben cumplir las eventualidades para ser una reclamación, a continuación, se muestran las más comunes:
+    p.mb-5 Una de las causales por las que los pasajeros colocan más PQRS son las relacionadas con equipajes, ya sea porque el equipaje no llega, llega en otro vuelo, llega a otro destino, porque el equipaje está roto, saqueado, etc., por esto es importante saber que ante cualquier eventualidad asociada al equipaje que estaba bajo custodia de la aerolínea debe cumplir con un procedimiento para que se haga una revisión del caso y de tener lugar, que la compañía aérea asuma los costos a que haya lugar. Existen características especiales que deben cumplir las eventualidades para ser una reclamación, a continuación, se muestran las más comunes:
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="slide-down" data-aos-offset="200" )
         .tarjeta-avatar
