@@ -274,7 +274,7 @@
               figure
                 img(src='@/assets/curso/img72.svg', alt='Texto que describa la imagen').mb-5.mb-lg-0
             .col-md-9.mb-4.mb-md-0
-              p Verificar la asignación de las bandas en el área de entrega del equipaje al pasajero, tomando atenta nota de los tiempos de llegada de los equipajes de acuerdo con la prioridad de estos, <i>check list</i> de materiales.
+              p Verificar la asignación de las bandas en el área de entrega del equipaje al pasajero, tomando atenta nota de los tiempos de llegada de los equipajes de acuerdo con la prioridad de estos, aplicando <i>check list</i> de materiales.
           .row.align-items-center
             .col-md-9.mb-4.mb-md-0
               p Revisión del <i>Action File Worldtracer</i>.

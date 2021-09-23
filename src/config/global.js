@@ -179,7 +179,7 @@ export default {
     },
     {
       referencia:
-        'Secretaría de Seguridad Aérea. (2010). Inspección de aeropuertos.',
+        'Secretaría de Seguridad Aérea. (2010). Inspección de aeropuertos. ',
       link:
         'https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/vigilancia/Documents/CAPITULO%203%20II.pdf',
     },
