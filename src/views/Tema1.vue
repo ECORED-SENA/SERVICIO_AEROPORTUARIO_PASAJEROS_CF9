@@ -276,7 +276,7 @@
           .row.mb-3
             .col-lg-7
               h4 Equipaje dañado – DPR: 
-              p.mb-5 Desde el mostrador el funcionario debe cerciorarse que la maleta no tenga ninguna avería y si por el contrario presenta algún daño se debe informar al pasajero para tener soporte de información y limitar la responsabilidad del transportista. <b>Limited Release</b> Esta etiqueta de equipaje se debe hacer firmar por el pasajero señalando el daño.
+              p.mb-5 Desde el mostrador el funcionario debe cerciorarse que la maleta no tenga ninguna avería y si por el contrario presenta algún daño se debe informar al pasajero para tener soporte de información y limitar la responsabilidad del transportista. <b><i>Limited Release</i></b>: esta etiqueta de equipaje se debe hacer firmar por el pasajero señalando el daño.
               a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/ticket.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
