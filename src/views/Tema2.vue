@@ -66,7 +66,7 @@
             img(src='@/assets/curso/img34.svg', alt='Texto que describa la imagen' style='width: 60px').me-3
             h2.titulo-tarjeta.mb-0 E.
           .tarjeta__contenido
-            p.mb-0 Si el equipaje acompañado o no de un pasajero no llega, o si llega en otro vuelo, de modo que implique espera para su dueño o que tenga que regresar al aeropuerto para reclamarlo, el costo de los traslados hasta y desde el aeropuerto, si son necesarios, serán asumidos por el transportador. En tales casos, el transportador también le sufragará al pasajero los gastos mínimos por elementos de aseo personal, o le suministrará tales elementos. Si la demora del equipaje fuera superior a veinticuatro (24) horas, la compensación incluirá, además, una suma suficiente para adquirir prendas básicas de vestir, en todo caso no inferior al veinte por ciento (20%) del valor del trayecto por cada día de retraso, a cada pasajero afectado. 
+            p.mb-0 Si el equipaje acompañado o no de un pasajero no llega, o si llega en otro vuelo, de modo que implique espera para su dueño o que tenga que regresar al aeropuerto para reclamarlo, el costo de los traslados hasta y desde el aeropuerto, si son necesarios, serán asumidos por el transportador. En tales casos, el transportador también le sufragará al pasajero los gastos mínimos por elementos de aseo personal, o le suministrará tales elementos. Si la demora del equipaje fuera superior a veinticuatro (24) horas, la compensación incluirá, además, una suma suficiente para adquirir prendas básicas de vestir, en todo caso no inferior al veinte por ciento (20 %) del valor del trayecto por cada día de retraso, a cada pasajero afectado. 
     br
     br
     br

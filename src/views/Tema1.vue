@@ -66,7 +66,7 @@
           .tarjeta.color-primario
             .p-4.text-center
               h3 Menajes
-              p Son todos los artículos de uso doméstico, tales como enseres, electrodomésticos, utensilios de cocina y todos los elementos utilizados en el hogar. Esta situación se presenta cuando las personas se trasladan a otra ciudad a establecen su residencia temporal o permanente por diferentes motivos.
+              p Son todos los artículos de uso doméstico, tales como enseres, electrodomésticos, utensilios de cocina y todos los elementos utilizados en el hogar. Esta situación se presenta cuando las personas se trasladan a otra ciudad a establecer su residencia temporal o permanente por diferentes motivos.
     p.mb-5 Se recomienda revisar muy atentamente las normas vigentes de menaje, estipuladas en el Decreto 2685 de 1999 a través del cual se regula la introducción de mercancías al territorio nacional; al referirse a la importación de menajes establece lo siguiente, entre otros aspectos.
     .row.mb-3(data-aos="fade-up")
       .col-lg-6.mb-3
@@ -363,7 +363,7 @@
             |Es de color 
             b NARANJA 
             | o 
-            b AMARILLO LIMON
+            b AMARILLO LIMÓN
             |, fluorescente y presenta: 
           ul.lista-ul--color
               li 
