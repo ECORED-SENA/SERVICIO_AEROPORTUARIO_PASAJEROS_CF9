@@ -32,11 +32,11 @@
       figcaption Video: Características del área en el aeropuerto
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/wW8RsJAfvus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/21RAQQvSnMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Generalidades del equipaje: módulo
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/vpEj821E4tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/VJKr99JcufM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Generalidades del equipaje: almacenamiento y bodegas de equipaje
     figure.mb-5
       .video
